@@ -433,6 +433,7 @@ h2, h3, h4, h5, h6 {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 10;
 }
 
 .logo {
@@ -510,15 +511,33 @@ a:hover {
 .whenwhere {
     margin-top: 52px;
     padding: 8.5em 0 1.5em 0;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.top_left_bird {
+    top: -45px;
+    left: 20%;
+}
+
+.top_right_bird {
+    top: -57px;
+    left: 37%;
 }
 
 h1 {
+    position: relative;
     margin-top: 0;
     font-family: 'kenyan', sans-serif;
     text-align: center;
     font-size: 247px;
     line-height: 1em;
     color: white;
-    text-shadow: 3px 3px 1px black;
+    text-shadow: 3px 3px 1px #737350;
 }
+
+
 
