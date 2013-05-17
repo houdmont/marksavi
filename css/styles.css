@@ -506,7 +506,9 @@ a:hover {
     background: red;
 }
 
-
+.absolute {
+    position: absolute;
+}
 
 .whenwhere {
     margin-top: 52px;
@@ -514,23 +516,28 @@ a:hover {
     position: relative;
 }
 
-.absolute {
-    position: absolute;
-}
+    .top_left_bird {
+        top: -45px;
+        left: 20%;
+    }
 
-.top_left_bird {
-    top: -45px;
-    left: 20%;
-}
+    .top_right_bird {
+        top: -57px;
+        left: 37%;
+    }
 
-.top_right_bird {
-    top: -57px;
-    left: 37%;
-}
+    .top_heart {
+        top: -40px;
+        left: 298px;
+        font-size: 35px;
+        line-height: 25px;
+        height: 35px;
+    }
 
 h1 {
     position: relative;
     margin-top: 0;
+    margin-bottom: 0;
     font-family: 'kenyan', sans-serif;
     text-align: center;
     font-size: 247px;
@@ -539,5 +546,47 @@ h1 {
     text-shadow: 3px 3px 1px #737350;
 }
 
+hr {
+    width: 50%;
+}
 
+.top_double {
+    margin: 0 auto;
+    padding: 0;
+    height: 17px;
+    background-image: url(../images/top_thin_double_band.png);
+    background-repeat: repeat-x;
+    overflow: hidden;
+    border: none;
+}
 
+.bottom_double {
+    margin: 0 auto;
+    padding: 0;
+    height: 20px;
+    background-image: url(../images/bottom_double_thin_band.png);
+    background-repeat: repeat-x;
+    overflow: hidden;
+    border: none;   
+}
+
+.invite_you_to {
+    position: relative;
+    color: #909074;
+    text-align: center;
+    text-shadow: 0px 1px 0px #c6c6b0;
+    text-transform: uppercase;
+    font-size: 40px;
+    width: 50%;
+    margin: 1em auto;
+}
+
+.bell_left {
+    top: -10px;
+    left: 70px;
+}
+
+.bell_right {
+    top: -10px;
+    right: 70px;
+}
