@@ -961,5 +961,17 @@ a:hover {
         left: 0;
     }
 
+.maidhonour {
+    background: transparent url(../images/maids_bg.png);
+}
+
+    .maids {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .bridesmaids_arrow {
+        
+    }
 
 

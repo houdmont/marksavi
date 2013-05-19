@@ -26,5 +26,5 @@ $(function() {
             moveTo(activeLink);
         });
 
-        moveTo(activeLink);
+        // moveTo(activeLink);
 });
