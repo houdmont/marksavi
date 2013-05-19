@@ -848,10 +848,118 @@ a:hover {
         text-align: center;
     }
 
+    .usher_images {
+        position: relative;
+        padding-bottom: 100px;
+    }
 
+        .marksteveson {
+            position: absolute;
+            bottom: 50px;
+            left: 60px;
+            background: transparent url(../images/bestman_mark.png) no-repeat;
+            width: 284px;
+            height: 31px;
+        }
 
+        .damianjones {
+            position: absolute;
+            bottom: 50px;
+            left: 390px;
+            background: transparent url(../images/bestman_jones.png) no-repeat;
+            width: 172px;
+            height: 31px;
+        }
 
+        .christian {
+            position: absolute;
+            bottom: 50px;
+            right: 10px;
+            background: transparent url(../images/bestman_christian.png) no-repeat;
+            width: 284px;
+            height: 31px;
+        }
 
+    .ushers_arrow {
+        background: transparent url(../images/bestman_ushers_arrow.png) no-repeat;
+        width: 168px;
+        height: 105px;
+        position: absolute;
+        top: -110px;
+        left: 40px;
+    }
+
+    .bestman_arrow {
+        background: transparent url(../images/bestman_bestman_arrow.png) no-repeat;
+        width: 159px;
+        height: 90px;
+        position: absolute;
+        top: -330px;
+        right: 79px;
+    }
+
+    .bestman_bird {
+        position: absolute;
+        background: transparent url(../images/bestman_bird.png) no-repeat;
+        width: 68px;
+        height: 46px;
+        top: -327px;
+        left: 300px;
+    }
+
+    .bestman_bird2 {
+        position: absolute;
+        background: transparent url(../images/bestman_bird_2.png) no-repeat;
+        width: 92px;
+        height: 68px;
+        top: 50px;
+        right: 260px;
+    }
+
+    .leaf1 {
+        position: absolute;
+        background: transparent url(../images/bestman_leaf_large.png) no-repeat;
+        height: 109px;
+        width: 107px;
+        top: -330px;
+        left: -140px;
+    }
+
+    .leaf2 {
+        position: absolute;
+        background: transparent url(../images/bestman_leaf_large.png) no-repeat;
+        height: 109px;
+        width: 107px;
+        top: -140px;
+        right: 90px;
+    }
+
+    .leaf3 {
+        position: absolute;
+        background: transparent url(../images/bestman_leaf_mid.png) no-repeat;
+        width: 78px;
+        height: 66px;
+        top: 0;
+        left: 230px;
+    }
+    
+    .leaf4 {
+        position: absolute;
+        background: transparent url(../images/bestman_leaf_mid.png) no-repeat;
+        width: 78px;
+        height: 66px;
+        top: -400px;
+        right: -100px;
+    }
+
+    .bestman_badge {
+        position: absolute;
+        background: transparent url(../images/bestman_orange_circle.png) no-repeat;
+        width: 228px;
+        height: 227px;
+        top: -440px;
+        left: 0;
+    }
 
 
 
