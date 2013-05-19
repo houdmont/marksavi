@@ -510,6 +510,10 @@ a:hover {
     position: absolute;
 }
 
+.relative {
+    position: relative;
+}
+
 .whenwhere {
     margin-top: 52px;
     padding: 8.5em 0 10.5em 0;
@@ -686,5 +690,168 @@ a:hover {
 .rsvp {
     background: transparent url(../images/rsvp_background.png);
     height: 583px;
+    position: relative;
 }
+
+    .rsvp.wrapper {
+        height: 583px;
+    }
+
+    .large_heart, .medium_heart, .small_heart {
+        position: absolute;
+    }
+
+    .large_heart {
+        width: 42px;
+        height: 34px;
+        background: transparent url(../images/rsvp_large_heart.png) no-repeat;
+    }
+
+        .large_heart.first {
+            top: 8%;
+            left: -30%;
+        }
+
+        .large_heart.second {
+            top: 25%;
+            left: -18%;
+        }
+
+        .large_heart.third {
+            right: 2%;
+            top: 11%;
+        }
+
+        .large_heart.fourth {
+            top: 16%;
+            right: -25%;
+        }
+
+    .medium_heart {
+        width: 30px;
+        height: 24px;
+        background: transparent url(../images/rsvp_medium_heart.png) no-repeat;
+    }
+
+        .medium_heart.first {
+            top: 20%;
+            left: -5%;
+        }
+
+        .medium_heart.second {
+            top: 35%;
+            right: -20%;
+        }
+
+    .small_heart {
+        width: 18px;
+        height: 14px;
+        background: transparent url(../images/rsvp_small_heart.png) no-repeat;
+    }
+    
+        .small_heart.first {
+            top: 14%;
+            left: -38%;
+        }
+
+        .small_heart.second {
+            top: 39%;
+            left: -10%;
+        }
+
+        .small_heart.third {
+            top: 20%;
+            right: -10%;
+        }
+
+    .pinned_rsvp {
+        background: transparent url(../images/rsvp_board.png) no-repeat center bottom;
+        width: 413px;
+        height: 400px;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 100px;
+    }
+
+    .rsvp_button {
+        background: transparent url(../images/rsvp_button.png) no-repeat;
+        width: 199px;
+        height: 42px;
+        display: block;
+        text-indent: -9999px;
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    .savi_image {
+        background: transparent url(../images/rsvp_savi_pic.png) no-repeat;
+        width: 204px;
+        height: 211px;
+        top: 225px;
+        left: -234px;
+    }
+
+    .savi_text {
+        background: transparent url(../images/rsvp_savi_name.png) no-repeat;
+        height: 43px;
+        width: 99px;
+
+        left: -190px;
+        top: 447px;
+    }
+
+    .savi_bird {
+        background: transparent url(../images/bird_top_left.png) no-repeat;
+        width: 96px;
+        height: 68px;
+
+        left: -200px;
+        top: 163px;
+    }
+
+    .mark_image {
+        background: transparent url(../images/rsvp_mark_pic.png) no-repeat;
+        width: 212px;
+        height: 211px;
+        top: 225px;
+        right: -242px;
+    }
+
+    .mark_text {
+        background: transparent url(../images/rsvp_mark_name.png) no-repeat;
+        width: 144px;
+        height: 60px;
+
+        top: 440px;
+        right: -220px;
+
+    }
+
+    .mark_bird {
+        background: transparent url(../images/bird_top_right.png) no-repeat;
+
+        width: 115px;
+        height: 80px;
+
+        right: -230px;
+        top: 150px;
+    }
+
+.bestman {
+    position: relative;
+}
+
+    .bestman_image {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
 
