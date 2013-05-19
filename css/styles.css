@@ -512,8 +512,10 @@ a:hover {
 
 .whenwhere {
     margin-top: 52px;
-    padding: 8.5em 0 1.5em 0;
+    padding: 8.5em 0 10.5em 0;
     position: relative;
+    background: transparent url(../images/when_where_trees.png) no-repeat center bottom;
+
 }
 
     .top_left_bird {
@@ -534,59 +536,155 @@ a:hover {
         height: 35px;
     }
 
-h1 {
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'kenyan', sans-serif;
-    text-align: center;
-    font-size: 247px;
-    line-height: 1em;
-    color: white;
-    text-shadow: 3px 3px 1px #737350;
+    h1 {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 247px;
+        line-height: 1em;
+    }
+
+    .whiteshadow {
+        color: white;
+        text-shadow: 3px 3px 1px #737350;
+        text-align: center;
+        font-family: 'kenyan', sans-serif;
+    }
+
+    hr {
+        width: 50%;
+    }
+
+    .top_double {
+        margin: 0 auto;
+        padding: 0;
+        height: 17px;
+        background-image: url(../images/top_thin_double_band.png);
+        background-repeat: repeat-x;
+        overflow: hidden;
+        border: none;
+    }
+
+    .bottom_double {
+        margin: 0 auto;
+        padding: 0;
+        height: 20px;
+        background-image: url(../images/bottom_double_thin_band.png);
+        background-repeat: repeat-x;
+        overflow: hidden;
+        border: none;   
+    }
+
+    .invite_you_to {
+        position: relative;
+        color: #909074;
+        text-align: center;
+        text-shadow: 0 1px 0 #c6c6b0;
+        text-transform: uppercase;
+        font-size: 40px;
+        width: 50%;
+        margin: 1em auto;
+    }
+
+    .bell_left {
+        top: -10px;
+        left: 70px;
+    }
+
+    .bell_right {
+        top: -10px;
+        right: 70px;
+    }
+
+    .celebrate_their_marriage {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .saturday {
+        padding-top: 10px;
+        font-size: 102px;
+        line-height: 1em;
+    }
+
+    .november {
+        font-size: 66px;
+        line-height: 1em;
+    }
+
+    .year {
+        font-size: 186px;
+        line-height: 1em;
+    }
+
+    .flying_birds {
+        position: relative;
+    }
+
+    .bird_mid_left {
+        top: 40%;
+        left: 10%;
+    }
+
+    .bird_mid_right {
+        top: 40%;
+        right: 10%;
+    }
+
+    .small_left {
+        top: 36%;
+        left: 17%;
+    }
+
+    .large_left {
+        top: 30%;
+        left: 20%;
+    }
+
+    .small_right {
+        top: 36%;
+        right: 17%;
+    }
+
+    .large_right {
+        top: 30%;
+        right : 20%;
+    }
+
+    .text_at {
+        text-align: center;
+        font-family: 'handy', serif;
+        color: white;
+        font-size: 80px;
+        line-height: 1em;
+        text-shadow: 3px 3px 1px #737350;;
+    }
+
+    .single {
+        background: transparent url(../images/small_thin_band.png) no-repeat;
+        border: none;
+        height: 5px;
+    }
+
+    .address {
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.3em;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .followed {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 1em;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+.rsvp {
+    background: transparent url(../images/rsvp_background.png);
+    height: 583px;
 }
 
-hr {
-    width: 50%;
-}
-
-.top_double {
-    margin: 0 auto;
-    padding: 0;
-    height: 17px;
-    background-image: url(../images/top_thin_double_band.png);
-    background-repeat: repeat-x;
-    overflow: hidden;
-    border: none;
-}
-
-.bottom_double {
-    margin: 0 auto;
-    padding: 0;
-    height: 20px;
-    background-image: url(../images/bottom_double_thin_band.png);
-    background-repeat: repeat-x;
-    overflow: hidden;
-    border: none;   
-}
-
-.invite_you_to {
-    position: relative;
-    color: #909074;
-    text-align: center;
-    text-shadow: 0px 1px 0px #c6c6b0;
-    text-transform: uppercase;
-    font-size: 40px;
-    width: 50%;
-    margin: 1em auto;
-}
-
-.bell_left {
-    top: -10px;
-    left: 70px;
-}
-
-.bell_right {
-    top: -10px;
-    right: 70px;
-}
