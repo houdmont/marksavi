@@ -963,6 +963,7 @@ a:hover {
 
 .maidhonour {
     background: transparent url(../images/maids_bg.png);
+    padding-bottom: 50px;
 }
 
     .maids {
@@ -970,6 +971,199 @@ a:hover {
         text-align: center;
     }
 
-    .bridesmaids_arrow {
-        
+    .maids_bridesmaids_arrow {
+        background: transparent url(../images/maids_bridesmaids_text.png) no-repeat;
+        width: 238px;
+        height: 103px;
+        position: absolute;
+        bottom: 200px;
+        left: 40px;
+    }
+
+    .maids_maidhonour_arrow {
+        background: transparent url(../images/maids_maidhonour_text.png) no-repeat;
+        width: 287px;
+        height: 110px;
+        position: absolute;
+        top: 80px;
+        right: 0;
+    }
+
+    .maids_bird_left {
+        background: transparent url(../images/maids_bird_left.png) no-repeat;
+        width: 103px;
+        height: 59px;
+        position: absolute;
+        top: 369px;
+        left: 40px;
+    }
+
+    .maids_bird_right {
+        background: transparent url(../images/maids_bird_right.png) no-repeat;
+        width: 85px;
+        height: 59px;
+        position: absolute;
+        top: 369px;
+        right: 200px;
+    }
+
+    .maids_double_leaves {
+        background: transparent url(../images/maids_double_leaves.png) no-repeat;
+        width: 167px;
+        height: 158px;
+        position: absolute;
+        bottom: 0;
+        left: -150px;
+    }
+
+    .maids_double_leaves_2 {
+        background: transparent url(../images/maids_double_leaves_2.png) no-repeat;
+        position: absolute;
+        width: 185px;
+        height: 143px;
+        bottom: 100px;
+        right: 20px;
+    }
+
+    .maids_double_leaves_3 {
+        background: transparent url(../images/maids_double_leaves_3.png) no-repeat;
+        position: absolute;
+        width: 151px;
+        height: 190px;
+        top: 140px;
+        right: -190px;
+    }
+
+    .maids_large_leaf {
+        background: transparent url(../images/maids_large_leaf.png) no-repeat;
+        position: absolute;
+        width: 161px;
+        height: 114px;
+        top: 200px;
+        left: -150px;
+    }
+
+    .maids_small_leaf {
+        background: transparent url(../images/maids_small_leaf.png) no-repeat;
+        position: absolute;
+        width: 102px;
+        height: 82px;
+        top: 320px;
+        left: -100px;
+    }
+
+    .maids_title {
+        background: transparent url(../images/maids_title.png) no-repeat;
+        position: absolute;
+        width: 250px;
+        height: 247px;
+        top: 50px;
+        left: 0;
+    }
+
+.gifts {
+    background: transparent url(../images/rsvp_background.png);
+    padding: 60px 0;
+    text-align: center;
+}
+    
+    .wedding_gifts {
+        background: transparent url(../images/gifts_gifts_bg.png) no-repeat;
+        width: 817px;
+        height: 446px;
+        margin: 0 auto;
+    }
+
+        .wedding_gifts p {  
+            height: 40%;
+            color: #5f5754;
+            max-width: 50%;
+            overflow: hidden;
+            padding-top: 200px;
+            text-align: left;
+            padding-left: 10%;
+        }
+
+    .wedding_venue {
+        background: transparent url(../images/gifts_directions.png) no-repeat;
+        width: 823px;
+        height: 449px;
+        margin: 0 auto;
+        margin-left: 65px;
+        margin-top: 150px;
+    }
+
+        .wedding_venue p {
+            text-align: left;
+            height: 30%;
+            padding-top: 200px;
+            padding-left: 10%;
+            color: #5f5754;
+            max-width: 50%;
+        }
+
+        .wedding_venue a.larger {
+            display: block;
+            background: transparent url(../images/gifts_view_larger_map.png) no-repeat;
+            width: 164px;
+            height: 45px;
+            margin-left: 10%;
+            text-decoration: none;
+            text-indent: -9999px;
+            overflow: hidden;
+        }
+
+    .gifts_top_hearts {
+        background: transparent url(../images/gifts_top_hearts.png) no-repeat;
+        width: 742px;
+        height: 78px;
+        position: absolute;
+        top: -60px;
+        left: 72px;
+    }
+    
+    .gifts_bottom_hearts {
+        background: transparent url(../images/gifts_bottom_hearts.png) no-repeat;
+        width: 798px;
+        height: 115px;
+        position: absolute;
+        top: 460px;
+        left: 70px;
+    }
+
+.photo {
+    padding: 60px 0;
+    text-align: center;
+}
+
+    .photo_gallery_title {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        font-size: 60px;
+        margin: 0;
+        line-height: 60px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    
+    .photo_gallery {
+        background: transparent url(../images/photos_gallery.png) no-repeat;
+        width: 716px;
+        height: 730px;
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        margin-left: -358px;
+        z-index: 2;
+    }
+
+    .see_you {
+        background: transparent url(../images/photos_see_you.png) no-repeat;
+        width: 360px;
+        height: 426px;
+        position: absolute;
+        left: 50%;
+        margin-left: -180px;
+        top: 856px;
+        padding-bottom: 150px;
     }
